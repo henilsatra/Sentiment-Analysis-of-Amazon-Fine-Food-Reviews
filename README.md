@@ -48,12 +48,10 @@ These programs can be executed through running the entire notebook. There are an
 
 ## Help
 
-Please reach out to us if there are any questions or concerns.
+Please reach out to us via email if there are any questions or concerns.
 
 ## Authors
 
-Contributors names and contact info
-
-ex. [Mona Gandhi](mona09@seas.upenn.edu )
-ex. [Jeffrey Li](lijeff@seas.upenn.edu )
-ex. [Henil Satra](henil17@seas.upenn.edu )
+* [Mona Gandhi](mona09@seas.upenn.edu )
+* [Jeffrey Li](lijeff@seas.upenn.edu )
+* [Henil Satra](henil17@seas.upenn.edu )
