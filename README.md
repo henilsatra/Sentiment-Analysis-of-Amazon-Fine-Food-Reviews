@@ -28,24 +28,32 @@ wget http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
 tar -xf aclImdb_v1.tar.gz
 ```
 
+#### Install torchmetrics library
+```
+!pip install torchmetrics
+```
+
+All libraries we used should be available through Colab's Python environment.
+
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* Baselines-Vectorization.ipynb: Contains baseline models trained on features extracted by Keras feature extraction tools
+* Baselines-BagofWords.ipynb: Contains baseline models trained on Bag-of-Words extracted features 
+* Baselines-Word2VecAndGlove.ipynb: Contains baseline models trained on Word2Vec extracted features and GLOVE extracted features 
+* Bert+LSTM.ipynb: Contains BERT and LSTM models
+* LSTM_GLOVE.ipynb: Contains LSTM trained with GLOVE extracted features 
+* LSTM_Word2Vec.ipynb: Contains LSTM trained with Word2Vec extracted features 
+
+These programs can be executed through running the entire notebook. There are annotations in cells that require attention before running.
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Please reach out to us if there are any questions or concerns.
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+ex. [Mona Gandhi](mona09@seas.upenn.edu )
+ex. [Jeffrey Li](lijeff@seas.upenn.edu )
+ex. [Henil Satra](henil17@seas.upenn.edu )
