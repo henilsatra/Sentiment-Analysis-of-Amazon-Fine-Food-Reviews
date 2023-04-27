@@ -14,12 +14,19 @@ For this project, we study the problem of sentiment analysis of product reviews,
 
 ### Installing
 
+#### Importing Amazon Fine Food Reviews Dataset 
 
-* !pip install --upgrade --no-cache-dir gdown
+```
+! pip install --upgrade --no-cache-dir gdown
 if not os.path.exists("Reviews.csv"):
     !gdown 1_kLSwiRYtiXF7h9V1FlTqTapOHiYU5Mk
+```
 
-
+#### Importing Large Movie Review Dataset 
+```
+wget http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
+tar -xf aclImdb_v1.tar.gz
+```
 
 ### Executing program
 
